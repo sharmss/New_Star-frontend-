@@ -1,6 +1,4 @@
 # New_Star-frontend-
-# Tailor Shop Website
-
 A responsive multi-page website with PHP/MySQL backend for contact form management.
 
 ## Tech Stack
