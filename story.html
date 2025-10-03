@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewStarTailor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <!---<img src="images/logo1.jpg" alt="logo"></a>---->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="story.html">OUR STORY</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="facilities.html">FACILITIES</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>OUR STORY</h1>
+   </section>
+
+   <!----- Our Story ----->
+   <section class="story">
+    <div class="row">
+        <div class="story-col text-content">
+            <h1>26 Years of Tailoring Excellence</h1>
+            <p>Established in 1998, New Star Tailor Shop has proudly served clients for over 26 years, earning the trust of more than 60 companies. 
+                Our reputation for delivering high-quality work with precision and punctuality has made us a preferred choice in the tailoring industry.</p> 
+                <p>We pride ourselves on our exceptional customer service, ensuring every client feels valued and heard. Our team of 10 skilled and dedicated employees brings a wealth of experience, 
+                craftsmanship, and attention to detail to each project.</p> 
+                <p>At New Star Tailor Shop, we are passionate about creating perfectly tailored garments that exceed expectations and leave a lasting impression.</p>
+        </div>
+        <div class="story-col">
+            <img src="images/image30.jpg" alt="Our Story">
+            <h3>L Chinnakannan  - Owner and Lead Tailor</h3>
+               
+        </div>
+    </div>
+   </section>
+
+    <!----- footer ----->
+  <section id="footer">
+    <div class="container">
+        <h3>About Us</h3>
+        <p>New Star Tailor Shop specializes in tailoring formal shirts, pants, and overcoats with precision.<br> 
+            We provide custom fits for both personal and professional use, ensuring quality and style.</p>
+            <p> Visit us @ New Star Tailor Shop, Bharathiyar Nagar, Bedrapalli, Hosur - 652 109</p>
+        <div class="icons">
+        <center><i class="fa fa-facebook"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </center>
+    </div>
+    </div>
+</section>
+  
+
+
+<!----- JAVASCRIPT FOR TOGGLE MENU ----->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }   
+    </script>
+</body>
+</html>
